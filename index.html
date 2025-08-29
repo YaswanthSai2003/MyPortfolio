@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaswanth Sai Reddy - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <span>Yaswanth Portfolio</span>
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certifications" class="nav__link">Certifications</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+  <div class="hero__container">
+    <div class="hero__main">
+      <span class="hero__greeting">Hello, I'm</span>
+      <h1 class="hero__name">Yaswanth Sai Reddy</h1>
+      <h3 class="hero__role">Aspiring Software Developer</h3>
+      <p class="hero__desc">
+        Building scalable web solutions with modern technologies.
+      </p>
+      <div class="hero__buttons">
+        <a href="#contact" class="btn btn--primary">
+          <i class="fas fa-paper-plane"></i> Get In Touch
+        </a>
+        <a href="#projects" class="btn btn--secondary">
+          <i class="fas fa-eye"></i> View Projects
+        </a>
+      </div>
+      <div class="hero__socials">
+        <a href="https://www.linkedin.com/in/yaswanth-sai-reddy-kadhati" target="_blank" class="hero__social-link"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/YaswanthSai2003" target="_blank" class="hero__social-link"><i class="fab fa-github"></i></a>
+        <a href="mailto:yaswanthsai1805@email.com" class="hero__social-link"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <!-- Remove any distractive images unless absolutely necessary, or use a small subtle accent shape if you like -->
+  </div>
+</section>
+
+
+        <!-- About Section without photo -->
+<section class="about section" id="about">
+  <div class="container">
+    <h2 class="section__title">About Me</h2>
+    <span class="section__subtitle">My introduction</span>
+    
+    <div class="about__container">
+      <div class="about__data" style="max-width: 700px; margin: 0 auto;">
+        <div class="about__info" style="display: flex; justify-content: space-around; margin-bottom: 2rem;">
+          <div class="about__info-item" style="text-align: center;">
+            <i class="fas fa-award about__info-icon" style="font-size: 2rem; color: var(--first-color);"></i>
+            <div>
+              <span class="about__info-title" style="font-weight: 600; font-size: 1.5rem;">8+</span>
+              <span class="about__info-subtitle" style="color: var(--text-color-light);">Certifications</span>
+            </div>
+          </div>
+          
+          <div class="about__info-item" style="text-align: center;">
+            <i class="fas fa-user-graduate about__info-icon" style="font-size: 2rem; color: var(--first-color);"></i>
+            <div>
+              <span class="about__info-title" style="font-weight: 600; font-size: 1.5rem;">Entry</span>
+              <span class="about__info-subtitle" style="color: var(--text-color-light);">Level Developer</span>
+            </div>
+          </div>
+
+          <div class="about__info-item" style="text-align: center;">
+            <i class="fas fa-briefcase about__info-icon" style="font-size: 2rem; color: var(--first-color);"></i>
+            <div>
+              <span class="about__info-title" style="font-weight: 600; font-size: 1.5rem;">Actively</span>
+              <span class="about__info-subtitle" style="color: var(--text-color-light);">Seeking Opportunities</span>
+            </div>
+          </div>
+        </div>
+        
+        <p class="about__description" style="font-size: 1rem; line-height: 1.6; color: var(--text-color);">
+          Aspiring software developer skilled in building scalable web and Java solutions, with hands-on experience in REST APIs, databases, and full-stack projects. Developed a high-efficiency Library Management System, Online Banking System (Java/OOPs) and IoT-web hybrid applications. Passionate about performance optimization and system design, with coursework in Data Structures, Algorithms, and DBMS.
+        </p>
+        
+        <!-- <div class="about__buttons" style="text-align: center; margin-top: 2rem; display: flex; justify-content: center; gap: 1rem;">
+  <a download="Yaswanth_Resume.pdf" href="assets/resume.pdf" class="btn btn--primary about__button" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <i class="fas fa-download"></i>
+    Download Resume
+  </a>
+  <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--secondary about__button" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+    <i class="fas fa-eye"></i>
+    View Resume
+  </a>
+</div> -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+                
+                <div class="skills__container">
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="fas fa-code skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Programming Languages</h1>
+                                <span class="skills__subtitle">Foundation of development</span>
+                            </div>
+                            <i class="fas fa-angle-down skills__arrow"></i>
+                        </div>
+                        
+                        <div class="skills__list">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C++</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__cpp"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sql"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="fas fa-laptop-code skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Web Development</h1>
+                                <span class="skills__subtitle">Frontend & Backend</span>
+                            </div>
+                            <i class="fas fa-angle-down skills__arrow"></i>
+                        </div>
+                        
+                        <div class="skills__list">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React.js</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node.js</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML/CSS</h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="fas fa-brain skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">AI/ML & Tools</h1>
+                                <span class="skills__subtitle">Modern technologies</span>
+                            </div>
+                            <i class="fas fa-angle-down skills__arrow"></i>
+                        </div>
+                        
+                        <div class="skills__list">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Machine Learning</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ml"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mongodb"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Git/GitHub</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__git"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications section" id="certifications">
+            <div class="container">
+                <h2 class="section__title">Certifications</h2>
+                <span class="section__subtitle">Professional credentials</span>
+                
+                <div class="certifications__container">
+                    <div class="certification__card">
+                        <i class="fas fa-code certification__icon"></i>
+                        <h3 class="certification__title">AICTE Certified Full Stack Web Development</h3>
+                        <span class="certification__issuer">Rveiya Dynamics Pvt Ltd</span>
+                    </div>
+                    
+                    <div class="certification__card">
+                        <i class="fas fa-coffee certification__icon"></i>
+                        <h3 class="certification__title">AICTE Certified Java Internship</h3>
+                        <span class="certification__issuer">Coding Raja Technologies</span>
+                    </div>
+                    
+                    <div class="certification__card">
+                        <i class="fas fa-api certification__icon"></i>
+                        <h3 class="certification__title">Postman API Fundamentals Student Expert</h3>
+                        <span class="certification__issuer">Postman</span>
+                    </div>
+                    
+                    <div class="certification__card">
+                        <i class="fas fa-trophy certification__icon"></i>
+                        <h3 class="certification__title">Java Basic</h3>
+                        <span class="certification__issuer">HackerRank</span>
+                    </div>
+                    
+                    <div class="certification__card">
+                        <i class="fas fa-shield-alt certification__icon"></i>
+                        <h3 class="certification__title">Introduction to Cybersecurity</h3>
+                        <span class="certification__issuer">Cisco Networking Academy</span>
+                    </div>
+                    
+                    <div class="certification__card">
+                        <i class="fas fa-robot certification__icon"></i>
+                        <h3 class="certification__title">AI Tools Workshop</h3>
+                        <span class="certification__issuer">be10x</span>
+                    </div>
+                    
+                    <div class="certification__card">
+                        <i class="fas fa-link certification__icon"></i>
+                        <h3 class="certification__title">Blockchain and its Applications</h3>
+                        <span class="certification__issuer">NPTEL</span>
+                    </div>
+                    
+                    <div class="certification__card">
+                        <i class="fas fa-database certification__icon"></i>
+                        <h3 class="certification__title">Introduction to MongoDB for students</h3>
+                        <span class="certification__issuer">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Recent work</span>
+                
+                <div class="projects__filters">
+                    <span class="projects__item active-work" data-filter="all">All</span>
+                    <span class="projects__item" data-filter=".iot">IoT/ML</span>
+                    <span class="projects__item" data-filter=".frontend">Frontend</span>
+                    <span class="projects__item" data-filter=".ai">AI/ML</span>
+                </div>
+                
+                <div class="projects__container">
+                    <div class="projects__content mix iot">
+                        <div class="projects__img">
+                            <i class="fas fa-eye projects__icon"></i>
+                        </div>
+                        <div class="projects__data">
+                            <h3 class="projects__title">Smart Blind Stick</h3>
+                            <p class="projects__description">
+                                Developed Python-based ETL pipelines using Jupyter Notebook to ingest and preprocess real-time sensor data from ultrasonic and gyroscope modules.
+                            </p>
+                            <div class="projects__tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">ML</span>
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">Jupyter Notebook</span>
+                                <span class="tech-tag">IoT</span>
+                                <span class="tech-tag">Scikit-learn</span>
+                            </div>
+                            <div class="projects__buttons">
+                                <a href="https://github.com/yaswanth-sai/smart-blind-stick" target="_blank" class="projects__button btn btn--sm">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <button class="projects__button btn btn--sm" onclick="openModal('project1')">
+                                    <i class="fas fa-eye"></i>
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projects__content mix frontend">
+                        <div class="projects__img">
+                            <i class="fas fa-user-md projects__icon"></i>
+                        </div>
+                        <div class="projects__data">
+                            <h3 class="projects__title">Patient Registration System</h3>
+                            <p class="projects__description">
+                                Built a frontend-only patient registration app using PgLite for data storage with multi-tab synchronization.
+                            </p>
+                            <div class="projects__tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PgLite</span>
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                            </div>
+                            <div class="projects__buttons">
+                                <a href="https://github.com/yaswanth-sai/patient-registration" target="_blank" class="projects__button btn btn--sm">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="https://patientregistration-pglite.netlify.app" target="_blank" class="projects__button btn btn--sm">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projects__content mix frontend">
+                        <div class="projects__img">
+                            <i class="fas fa-chart-line projects__icon"></i>
+                        </div>
+                        <div class="projects__data">
+                            <h3 class="projects__title">Dental Center Dashboard</h3>
+                            <p class="projects__description">
+                                Developed a comprehensive management dashboard with user authentication and data visualization.
+                            </p>
+                            <div class="projects__tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                            </div>
+                            <div class="projects__buttons">
+                                <a href="https://github.com/YaswanthSai2003/dental-center-app" target="_blank" class="projects__button btn btn--sm">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="https://dental-center-2025.netlify.app/" target="_blank" class="projects__button btn btn--sm">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projects__content mix ai">
+                        <div class="projects__img">
+                            <i class="fas fa-robot projects__icon"></i>
+                        </div>
+                        <div class="projects__data">
+                            <h3 class="projects__title">AI Chatbot Application</h3>
+                            <p class="projects__description">
+                                Developed an intelligent chatbot using nhost, n8n, and openRouter with natural language processing.
+                            </p>
+                            <div class="projects__tech">
+                                <span class="tech-tag">nhost</span>
+                                <span class="tech-tag">n8n</span>
+                                <span class="tech-tag">OpenRouter</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Low Code</span>
+                            </div>
+                            <div class="projects__buttons">
+                                <a href="https://github.com/YaswanthSai2003/chatbot-app" target="_blank" class="projects__button btn btn--sm">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <button class="projects__button btn btn--sm" onclick="openModal('project4')">
+                                    <i class="fas fa-eye"></i>
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projects__content mix ai">
+                        <div class="projects__img">
+                            <i class="fas fa-search projects__icon"></i>
+                        </div>
+                        <div class="projects__data">
+                            <h3 class="projects__title">Object Detection Model</h3>
+                            <p class="projects__description">
+                                Implemented SSD object detection framework using PyTorch with ResNet-50 backbone achieving good detection accuracy.
+                            </p>
+                            <div class="projects__tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">PyTorch</span>
+                                <span class="tech-tag">Google Colab</span>
+                                <span class="tech-tag">Computer Vision</span>
+                                <span class="tech-tag">Deep Learning</span>
+                            </div>
+                            <div class="projects__buttons">
+                                <a href="https://github.com/YaswanthSai2003/Object-detection-model.git" target="_blank" class="projects__button btn btn--sm">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <button class="projects__button btn btn--sm" onclick="openModal('project5')">
+                                    <i class="fas fa-eye"></i>
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+<section class="experience section" id="experience">
+  <div class="container">
+    <h2 class="section__title">Experience</h2>
+    <span class="section__subtitle">Professional journey</span>
+    
+    <div class="experience__container">
+    
+      <!-- Existing Experience Entry -->
+      <div class="experience__content">
+        <div class="experience__data">
+          <div>
+            <h3 class="experience__title">Full Stack Web Development Intern</h3>
+            <span class="experience__company">Rveiya Dynamics Pvt Ltd</span>
+            <div class="experience__calendar">
+              <i class="fas fa-calendar-alt"></i>
+              Jan 2025 - Apr 2025
+            </div>
+            <span class="experience__type">AICTE Certified</span>
+          </div>
+          
+          <div>
+            <span class="experience__rounder"></span>
+            <span class="experience__line"></span>
+          </div>
+        </div>
+        
+        <div class="experience__achievements">
+          <div class="achievement">
+            <i class="fas fa-code"></i>
+            <p>Built a fully responsive static web page using HTML5, CSS3 (Flexbox, Grid, media queries) and vanilla JavaScript</p>
+          </div>
+          <div class="achievement">
+            <i class="fas fa-database"></i>
+            <p>Installed and configured MongoDB, designed users collection schema and wrote scripts for CRUD operations</p>
+          </div>
+          <div class="achievement">
+            <i class="fas fa-server"></i>
+            <p>Developed RESTful endpoints using Node.js and Express.js for user management</p>
+          </div>
+          <div class="achievement">
+            <i class="fas fa-universal-access"></i>
+            <p>Ensured cross-browser compatibility and basic accessibility compliance (WCAG)</p>
+          </div>
+          <div class="achievement">
+            <i class="fab fa-git-alt"></i>
+            <p>Used Git for version control with clean commit histories</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- New Internship Experience Entry -->
+      <div class="experience__content">
+        <div class="experience__data">
+          <div>
+            <h3 class="experience__title">Java Intern</h3>
+            <span class="experience__company">Coding Raja Technologies</span>
+            <div class="experience__calendar">
+              <i class="fas fa-calendar-alt"></i>
+              June 2024 - July 2024
+            </div>
+            <span class="experience__type">AICTE Certified</span>
+          </div>
+          
+          <div>
+            <span class="experience__rounder"></span>
+            <span class="experience__line"></span>
+          </div>
+        </div>
+        
+        <div class="experience__achievements">
+          <div class="achievement">
+            <i class="fas fa-code"></i>
+            <p>Developed 2 Java applications improving system efficiency by 20% and user task time by 25%.</p>
+          </div>
+          <div class="achievement">
+            <i class="fas fa-university"></i>
+            <p><strong>Online Banking System</strong></p>
+            <ul>
+              <li>Built a secure app handling 100+ customer transactions with 99% accuracy.</li>
+              <li>Optimized UX, reducing task time by 25% via interactive prompts.</li>
+            </ul>
+          </div>
+          <div class="achievement">
+            <i class="fas fa-book"></i>
+            <p><strong>Library Management System</strong></p>
+            <ul>
+              <li>Automated book inventory and borrowing processes, improving operational efficiency by 30% and reducing manual workload.</li>
+              <li>Integrated real-time tracking and automated notifications, enhancing user satisfaction by 20%.</li>
+              <li>Designed a scalable system using Object-Oriented Programming (OOP) to efficiently manage 500+ books.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+        <!-- Contact Section -->
+        <!-- Contact Section -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <h2 class="section__title">Contact Me</h2>
+    <span class="section__subtitle">Get in touch</span>
+    
+    <div class="contact__container">
+      <div class="contact__information">
+        
+        <div class="contact__info">
+          <i class="fas fa-envelope contact__icon"></i>
+          <div>
+            <h3 class="contact__title">Email</h3>
+            <span class="contact__subtitle">yaswanthsai1805@email.com</span>
+          </div>
+        </div>
+        
+        <div class="contact__info">
+          <i class="fas fa-map-marker-alt contact__icon"></i>
+          <div>
+            <h3 class="contact__title">Location</h3>
+            <span class="contact__subtitle">India</span>
+          </div>
+        </div>
+      </div>
+      
+      <form action="https://formspree.io/f/xrbapbbl" method="POST" class="contact__form">
+        <div class="contact__inputs">
+          <div class="contact__content">
+            <label for="name" class="contact__label">Name</label>
+            <input type="text" id="name" name="name" class="contact__input" >
+          </div>
+          
+          <div class="contact__content">
+            <label for="email" class="contact__label">Email</label>
+            <input type="email" id="email" name="_replyto" class="contact__input" >
+          </div>
+        </div>
+        
+        <div class="contact__content">
+          <label for="subject" class="contact__label">Subject</label>
+          <input type="text" id="subject" name="subject" class="contact__input">
+        </div>
+        
+        <div class="contact__content">
+          <label for="message" class="contact__label">Message</label>
+          <textarea id="message" name="message" cols="30" rows="7" class="contact__input" ></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn btn--primary contact__button">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container">
+                <div>
+                    <h1 class="footer__title">Yaswanth Sai Reddy</h1>
+                    <span class="footer__subtitle">Aspiring Software Developer</span>
+                </div>
+                
+                <ul class="footer__links">
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/yaswanth-sai-reddy-kadhati" target="_blank" class="footer__social">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/YaswanthSai2003" target="_blank" class="footer__social">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:yaswanthsai1805@email.com" class="footer__social">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="footer__copy">&#169; Yaswanth Sai Reddy. All right reserved</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- Project Modals -->
+    <div id="project1" class="modal">
+        <div class="modal__content">
+            <span class="close">&times;</span>
+            <h2>Smart Blind Stick</h2>
+            <p>Developed Python-based ETL pipelines using Jupyter Notebook to ingest and preprocess real-time sensor data from ultrasonic and gyroscope modules. Implemented Scikit-learn machine learning models for terrain classification, improving detection accuracy by 30%.</p>
+            <div class="modal__tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">IoT</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">Jupyter</span>
+            </div>
+            <div class="modal__buttons">
+                <a href="https://github.com/yaswanth-sai/smart-blind-stick" target="_blank" class="btn btn--primary">
+                    <i class="fab fa-github"></i>
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="project4" class="modal">
+        <div class="modal__content">
+            <span class="close">&times;</span>
+            <h2>AI Chatbot Application</h2>
+            <p>Developed an intelligent chatbot using nhost, n8n, and openRouter. Features natural language processing, context awareness, and integration with multiple APIs for enhanced user interactions.</p>
+            <div class="modal__tech">
+                <span class="tech-tag">nhost</span>
+                <span class="tech-tag">n8n</span>
+                <span class="tech-tag">OpenRouter</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">API Integration</span>
+            </div>
+            <div class="modal__buttons">
+                <a href="https://github.com/yaswanth-sai/ai-chatbot" target="_blank" class="btn btn--primary">
+                    <i class="fab fa-github"></i>
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="project5" class="modal">
+        <div class="modal__content">
+            <span class="close">&times;</span>
+            <h2>Object Detection Model</h2>
+            <p>Implemented SSD object detection framework using PyTorch. Created custom dataset loader, anchor box generation, and multi-scale feature extraction with ResNet-50 backbone achieving good detection accuracy.</p>
+            <div class="modal__tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">Deep Learning</span>
+                <span class="tech-tag">Google Colab</span>
+            </div>
+            <div class="modal__buttons">
+                <a href="https://github.com/YaswanthSai2003" target="_blank" class="btn btn--primary">
+                    <i class="fab fa-github"></i>
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

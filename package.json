@@ -1,0 +1,17 @@
+{
+  "name": "yaswanth-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --host=localhost --port=3000 --open=/",
+    "build": "echo 'Build completed'",
+    "start": "live-server --host=localhost --port=8080"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["portfolio", "frontend", "developer"],
+  "author": "Yaswanth Sai Reddy",
+  "license": "MIT"
+}
